@@ -81,8 +81,15 @@ public:
 			cout << "Tree is empty" << endl;
 			return;
 		}
-		
+		if (ptr != NULL)
+		{
+			inorder(ptr->leftchild);
+			cout << ptr->info << " ";
+			inorder(ptr->rightchild);
+		}
+	}
 
+	
 int main()
 {
     std::cout << "Hello World!\n";
