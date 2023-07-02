@@ -1,8 +1,9 @@
-// binarysearchtree_124.cpp : This file contains the 'main' function. Program execution begins and ends there.
+/-/ binarysearchtree_124.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
 #include <string>
+using namespace std;
 using namespace std;
 
 class Node
@@ -21,6 +22,17 @@ public:
 	}
 };
 
+class BinaryTree
+{
+public:
+	Node* ROOT;
+
+	BinaryTree()
+	{
+		ROOT = NULL; // Inializing ROOT to null
+	}
+
+	
 
 int main()
 {
